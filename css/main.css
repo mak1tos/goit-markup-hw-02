@@ -1,0 +1,67 @@
+/* цвет основного текста #212121 */
+/* вторичный цвет #757575 */
+/* синий #2196F3 */
+/* белый #FFFFFF */
+/* банер фон #2F303A */
+
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --banner: #2F303A;
+}
+
+body {
+    background-color:#E5E5E5;
+    color: var(--primery-text-color);
+}
+
+/* скрытое */
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Шапка */
+
+.site-nav .link {
+    color: var(--primery-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--blue);
+}
+
+.site-nav .link.current{
+    color: var(--blue);
+}
+
+.contact-nav .link {
+    color: var(--primery-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+     color: var(--blue);
+}
+
+/* Подвал */
+.footer-section{
+    background-color: var(--banner);
+}
+
+.adress{
+    color: var(--white);
+}
+
+.contact{
+    color: #FFFFFF99;
+}
