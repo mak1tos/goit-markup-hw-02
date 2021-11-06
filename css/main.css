@@ -30,6 +30,9 @@ body {
 }
 
 /* Шапка */
+.page-header{
+    background-color:var(--white);
+}
 
 .site-nav .link {
     color: var(--primery-text-color);
