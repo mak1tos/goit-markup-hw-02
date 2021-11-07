@@ -30,8 +30,26 @@ body {
 }
 
 /* Шапка */
-.page-header{
-    background-color:var(--white);
+
+.logo{
+    font-family: Raleway; sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-dark{
+    color: #000;
+}
+
+.logo-light{
+    color: #FFF;
 }
 
 .site-nav .link {
@@ -54,6 +72,27 @@ body {
 .contact-nav .link:hover,
 .contact-nav .link:focus{
      color: var(--blue);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка (кнопка) */
+.button-s{
+    color: var(--white);
+    background-color: var(--blue);
+} 
+
+.button-p{
+    color: var(--primery-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-p:hover,
+.button-p:focus{
+    color: var(--white);
+    background-color: var(--blue);
 }
 
 /* Подвал */

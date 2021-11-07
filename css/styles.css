@@ -4,47 +4,47 @@
 /* белый #FFFFFF */
 /* банер фон #2F303A */
 
-ul {
-    list-style: none;
+.section{
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
-p{
-    color: var(--secondary-text-color);
+.work-section{
+    padding-top: 0;
 }
 
-/* Кнопка */
-.button-s{
-    color: var(--white);
-    background-color: var(--blue);
-} 
-
-.button-p{
-    color: var(--primery-text-color);
-    background-color: #F5F4FA;
+/* Hero */
+.hero {
+    background-color: #2F303A;
 }
 
-.button-p:hover,
-.button-p:focus{
-    color: var(--white);
-    background-color: var(--blue);
+/* Наши преимущества */
+
+.features {
 }
-
-/* Банер */
-
-.center{
-    background-color: var(--banner);
-    color: var(--white);
-} 
+.features-item {
+}
+.features-title {
+}
+.features-text {
+}
 
 /* Наша деятельность */
-.activity{
-    background-color: #E5E5E5;
+
+.works {
+}
+.works-it {
 }
 
 /* Команда */
 
-.team{
-    background-color: #F5F4FA;
+.team {
+}
+.team-item {
+}
+.team-title {
+}
+.team-text {
 }
 
 /* цвет основного текста #212121 */
