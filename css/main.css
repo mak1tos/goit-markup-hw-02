@@ -13,8 +13,11 @@
 }
 
 body {
-    background-color:#E5E5E5;
-    color: var(--primery-text-color);
+    font-family: Roboto; sans-serif
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
 }
 
 /* скрытое */
@@ -30,6 +33,10 @@ body {
 }
 
 /* Шапка */
+
+.section-header{
+    background-color: var(--white);
+}
 
 .logo{
     font-family: Raleway; sans-serif;
@@ -51,6 +58,15 @@ body {
 .logo-light{
     color: #FFF;
 }
+
+.site-nav-item{
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+}
+
 
 .site-nav .link {
     color: var(--primery-text-color);
@@ -80,17 +96,32 @@ ul {
 
 /* Шапка (кнопка) */
 .button-s{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
     color: var(--white);
     background-color: var(--blue);
 } 
 
 .button-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
     color: var(--primery-text-color);
     background-color: #F5F4FA;
 }
 
 .button-p:hover,
 .button-p:focus{
+    cursor: pointer;
     color: var(--white);
     background-color: var(--blue);
 }
