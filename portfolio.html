@@ -6,11 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
     <link rel="stylesheet" href="./css/normalize.css">
-    <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
     <!--Шапка-->
@@ -18,8 +17,8 @@
         <nav>
             <a class="logo link" href="/">Web<span class="logo-dark">Studio</span></a>
             <ul class="site-nav">
-                <li class="site-nav-item"><a class="link current" href="./index.html">Студия</a></li>
-                <li class="site-nav-item"><a class="link" href="./portfolio.html">Портфолио</a></li>
+                <li class="site-nav-item"><a class="link" href="./index.html">Студия</a></li>
+                <li class="site-nav-item"><a class="link current" href="./portfolio.html">Портфолио</a></li>
                 <li class="site-nav-item"><a class="link" href="">Контакты</a></li>
             </ul>
             </nav>
@@ -30,17 +29,14 @@
     <main>
         <!--Навигация-->
         <section>
-            <ul>
-                <li><button class="button-p" type="button">Все</button></li>
-                <li><button class="button-p" type="button">Веб-сайты</button></li>
-                <li><button class="button-p" type="button">Приложения</button></li>
-                <li><button class="button-p" type="button">Дизайн</button></li>
-                <li><button class="button-p"  class="button-p"type="button">Маркетинг</button></li>
-            </ul>
-        </section>
-        <!--Наши работы-->
-        <section>
             <h1 class="visually-hidden">our works</h1>
+            <ul class="filtr">
+                <li class="filtr-item"><button class="button" type="button">Все</button></li>
+                <li class="filtr-item"><button class="button" type="button">Веб-сайты</button></li>
+                <li class="filtr-item"><button class="button" type="button">Приложения</button></li>
+                <li class="filtr-item"><button class="button" type="button">Дизайн</button></li>
+                <li class="filtr-item"><button class="button"  class="button-p"type="button">Маркетинг</button></li>
+            </ul>
             <ul class="projects">
                 <li class="projects-item">
                     <img src="./images/img (2).png" alt="" width="370" height="294">
@@ -94,10 +90,10 @@
     <footer class="section footer-section">
         <a class="logo link" href="/">Web<span class="logo-light">Studio</span></a>
        <address>
-        <ul>
-            <li><a class="adress" href="https://goo.gl/maps/55i3DgBXtHAcoqPj8">г.Киев, пр-т Леси Украинки, 26</a></li>
-            <li><a class="contact" href="mailto:info@example.com">info@example.com</a></li>
-            <li><a class="contact" href="tel:+380991111111">+38 099 111 11 11</a></li>
+        <ul class="footer">
+            <li class="footer-item"><href="https://goo.gl/maps/55i3DgBXtHAcoqPj8">г.Киев, пр-т Леси Украинки, 26</href=></li>
+            <li class="footer"><href="mailto:info@example.com">info@example.com</href=></li>
+            <li class="footer"><href="tel:+380991111111">+38 099 111 11 11</href=></li>
         </ul>
        </address>
     </footer>

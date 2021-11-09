@@ -59,6 +59,8 @@ body {
     color: #FFF;
 }
 
+/* Навигация */
+
 .site-nav-item{
 font-weight: 500;
 font-size: 14px;
@@ -66,7 +68,6 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primery-text-color);
 }
-
 
 .site-nav .link {
     color: var(--primery-text-color);
@@ -95,22 +96,8 @@ ul {
 }
 
 /* Шапка (кнопка) */
-.button-s{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
-    letter-spacing: 0.06em;
-    cursor: pointer;
-    color: var(--white);
-    background-color: var(--blue);
-} 
 
-.button-p{
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: 700;
+.button{
     font-size: 16px;
     line-height: 1.62;
     letter-spacing: 0.03em;
@@ -119,25 +106,39 @@ ul {
     background-color: #F5F4FA;
 }
 
-.button-p:hover,
-.button-p:focus{
+.button:hover,
+.button:focus{
     cursor: pointer;
     color: var(--white);
     background-color: var(--blue);
 }
 
+.filtr-item{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    color: va(--primery-text-color);
+}
+
 /* Подвал */
+
+
 .footer-section{
     background-color: var(--banner);
 }
 
 .footer{
+    font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);;
 }
 
+.footer .footer-item{
+    color: #FFF;
+}
 
 .section{
     padding-top: 94px;
@@ -149,8 +150,6 @@ ul {
 }
 
 .section-title{
-
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
@@ -179,13 +178,10 @@ ul {
 /* Наши преимущества */
 
 .features-title {
-    
-    font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
     color: var(--primery-text-color);
 }
-
 
 /* Наша деятельность */
 
@@ -200,7 +196,6 @@ ul {
     color: var(--primery-text-color);
 }
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.18;
     letter-spacing: 0.03em;
