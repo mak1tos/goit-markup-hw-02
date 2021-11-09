@@ -4,6 +4,141 @@
 /* белый #FFFFFF */
 /* банер фон #2F303A */
 
+:root {
+    --primery-text-color: #212121;
+    --secondary-text-color: #757575;
+    --blue: #2196F3;
+    --white: #FFFFFF;
+    --banner: #2F303A;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+/* скрытое */
+.visually-hidden {
+    position: absolute;
+    clip: rect(0 0 0 0);
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+/* Шапка */
+
+.section-header{
+    background-color: var(--white);
+}
+
+.logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--blue);
+}
+
+.link{
+    text-decoration: none;
+}
+
+.logo-dark{
+    color: #000;
+}
+
+.logo-light{
+    color: #FFF;
+}
+
+.site-nav-item{
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primery-text-color);
+}
+
+
+.site-nav .link {
+    color: var(--primery-text-color);
+}
+
+.site-nav .link:hover, 
+.site-nav .link:focus {
+    color: var(--blue);
+}
+
+.site-nav .link.current{
+    color: var(--blue);
+}
+
+.contact-nav .link {
+    color: var(--primery-text-color);
+}
+
+.contact-nav .link:hover,
+.contact-nav .link:focus{
+     color: var(--blue);
+}
+
+ul {
+    list-style: none;
+}
+
+/* Шапка (кнопка) */
+.button-s{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
+} 
+
+.button-p{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+    cursor: pointer;
+    color: var(--primery-text-color);
+    background-color: #F5F4FA;
+}
+
+.button-p:hover,
+.button-p:focus{
+    cursor: pointer;
+    color: var(--white);
+    background-color: var(--blue);
+}
+
+/* Подвал */
+.footer-section{
+    background-color: var(--banner);
+}
+
+.footer{
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: rgba(255, 255, 255, 0.6);;
+}
+
+
 .section{
     padding-top: 94px;
     padding-bottom: 94px;
