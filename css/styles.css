@@ -34,8 +34,12 @@ body {
 
 /* Шапка */
 
-.section-header{
+.page-header{
     background-color: var(--white);
+}
+
+.nav-section{
+    
 }
 
 .logo{
